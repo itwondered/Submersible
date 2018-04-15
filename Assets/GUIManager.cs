@@ -1,8 +1,5 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-using UnityEngine.UI;
-using System.Reflection;
+﻿using UnityEngine;
+using Slider = UnityEngine.UI.Slider;
 
 public class GUIManager : MonoBehaviour
 {

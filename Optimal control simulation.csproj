@@ -56,9 +56,17 @@
       <SpecificVersion>False</SpecificVersion>
       <HintPath>libs\UnityEditor.dll</HintPath>
     </Reference>
+    <Reference Include="UnityEditor.UI, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>libs\UnityEditor.UI.dll</HintPath>
+    </Reference>
     <Reference Include="UnityEngine, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>libs\UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UI, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>libs\UnityEngine.UI.dll</HintPath>
     </Reference>
     <Reference Include="UnityScript.Lang" />
     <Reference Include="System.Runtime.Serialization" />
@@ -80,7 +88,9 @@
   <ItemGroup>
     <Content Include="libs\MonoDevelop.Core.dll" />
     <Content Include="libs\UnityEditor.dll" />
+    <Content Include="libs\UnityEditor.UI.dll" />
     <Content Include="libs\UnityEngine.dll" />
+    <Content Include="libs\UnityEngine.UI.dll" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />
